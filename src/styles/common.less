@@ -1,0 +1,173 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+ul,
+ol,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  overflow-x: hidden;
+}
+
+html{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+body,
+html,
+input,
+button,
+select,
+textarea {
+  font: 12px Microsoft YaHei, arial, sans-serif;
+  outline: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font: 0px Microsoft YaHei, arial, sans-serif;
+  outline: none;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently not supported by any browser */
+  // touch-action: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+input {
+  border: none;
+}
+
+b {
+  font-weight: normal;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  background-color: #fff;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  border: 0;
+}
+
+img {
+  object-fit: cover;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #999;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #999;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #999;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #999;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  /* -webkit-appearance: none; */
+  -webkit-appearance: none;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  right: 10px;
+  /* background: url(../img/icon-close.png) no-repeat; */
+  background-size: 32px 32px;
+}
+
+/* 微信video 视频问题 */
+video {
+  object-fit: fill;
+  position: relative;
+  z-index: 1 !important;
+}
+
+/*清除浮动*/
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/* between */
+.between {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.container {
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+.flex{
+  display: flex;
+}
