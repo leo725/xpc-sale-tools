@@ -1,3 +1,5 @@
+# 营销工具 - 内嵌至APP中，与APP交互，提供海报生成、拼图生成海报等功能
+
 # xpc-tools
 
 ## Project setup
